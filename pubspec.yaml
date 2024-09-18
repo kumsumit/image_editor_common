@@ -5,8 +5,8 @@ publish_to: none
 repository: https://github.com/fluttercandies/flutter_image_editor
 
 environment:
-  sdk: ">=2.12.0 <4.0.0"
-  flutter: ">=2.10.0"
+  sdk: ">=3.5.2 <4.0.0"
+  flutter: ">=3.24.0"
   
 dependencies:
   flutter:
@@ -15,7 +15,7 @@ dependencies:
     git: https://github.com/kumsumit/image_editor_platform_interface.git
 
 dev_dependencies:
-  flutter_lints: any
+  flutter_lints: ^4.0.0
 
 flutter:
   plugin:
